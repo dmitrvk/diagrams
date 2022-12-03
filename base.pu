@@ -1,0 +1,18 @@
+skinparam dpi 150
+skinparam monochrome true
+skinparam style strictuml
+
+skinparam activityBackgroundColor white
+skinparam activityDiamondBackgroundColor white
+skinparam actorBackgroundColor white
+skinparam classAttributeIconSize 0
+skinparam classBackgroundColor white
+skinparam databaseBackgroundColor white
+skinparam fileBackgroundColor white
+skinparam participantBackgroundColor white
+
+<style>
+wbsDiagram {
+    BackgroundColor White
+}
+</style>

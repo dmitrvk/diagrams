@@ -1,0 +1,13 @@
+@startwbs
+
+!include base.pu
+
+* A1
+** B1
+*** C1
+*** C2
+** B2
+***< C1
+***_ C2
+
+@endwbs

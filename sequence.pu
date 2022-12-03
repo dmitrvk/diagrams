@@ -1,0 +1,25 @@
+@startuml
+
+!include base.pu
+
+autonumber
+
+title ...
+
+participant "..." as ...
+
+... -> ... : ...
+... <-- ... : ...
+
+@enduml
+
+actor "User" as user
+participant "App" as app
+database "Database" as db
+
+user -> app : Action
+app -> db : Query
+app <-- db : Result
+user <-- app : Message
+
+@enduml
