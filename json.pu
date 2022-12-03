@@ -8,6 +8,8 @@
 
 @endjson
 
+!include example.json
+
 #highlight "results"
 
 {
