@@ -1,0 +1,25 @@
+@startjson
+
+!include base.pu
+
+{
+  "...": "..."
+}
+
+@endjson
+
+#highlight "results"
+
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "name",
+      "value": "value"
+    }
+  ]
+}
+
+@endjson

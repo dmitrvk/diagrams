@@ -12,7 +12,21 @@ skinparam fileBackgroundColor white
 skinparam participantBackgroundColor white
 
 <style>
-wbsDiagram {
+  jsonDiagram {
+    BackGroundColor White
+    LineThickness 1
+    RoundCorner 0
+
+    arrow {
+      LineThickness 1
+    }
+
+    highlight {
+      BackGroundColor LightGray
+    }
+  }
+
+  wbsDiagram {
     BackgroundColor White
-}
+  }
 </style>
