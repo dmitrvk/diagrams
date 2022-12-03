@@ -2,6 +2,10 @@
 
 !include base.pu
 
+* ...
+
+@endwbs
+
 * A1
 ** B1
 *** C1
