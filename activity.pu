@@ -1,0 +1,56 @@
+@startuml
+
+!include base.pu
+
+skinparam ArrowHeadColor none
+
+title ...
+
+start
+
+:...]
+
+stop
+
+@enduml
+@startuml
+
+!include base.pu
+
+skinparam ArrowHeadColor none
+
+title Activity Diagram
+
+start
+
+:Action]
+
+!$condition = "Condition\nis True?"
+
+if ($condition) then (yes)
+  :Action if True;
+else (no)
+  :Action if False;
+endif
+
+partition "Partition" {
+  :function()|
+  note right
+    This is a
+    function call
+  end note
+
+  if (error?) then
+    :Error Message/
+    floating note left: A note
+    stop
+  endif
+}
+
+while (loop)
+  :Action;
+endwhile
+
+stop
+
+@enduml
