@@ -20,10 +20,13 @@ as it has no effect while `@enduml` is placed above it.
 
 ## Examples
 
-|Diagram|Example|
-|---|---|
-|[Activity Diagram](https://github.com/dmitrvk/diagrams/blob/main/activity.pu)|[![activity Diagram](https://dmitrvk.ml/public/diagrams/activity.png)](https://github.com/dmitrvk/diagrams/blob/main/activity.pu)|
-|[Sequence Diagram](https://github.com/dmitrvk/diagrams/blob/main/sequence.pu)|[![Sequence Diagram](https://dmitrvk.ml/public/diagrams/sequence.png)](https://github.com/dmitrvk/diagrams/blob/main/sequence.pu)|
+### Activity Diagram
+
+[![Activity Diagram](https://dmitrvk.ml/public/diagrams/activity.png)](https://github.com/dmitrvk/diagrams/blob/main/activity.pu)
+
+### Sequence Diagram
+
+[![Sequence Diagram](https://dmitrvk.ml/public/diagrams/sequence.png)](https://github.com/dmitrvk/diagrams/blob/main/sequence.pu)
 
 ## Example Workflow
 
