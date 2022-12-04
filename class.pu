@@ -1,0 +1,76 @@
+@startuml
+
+!include base.pu
+
+hide empty members
+
+class Class {
+}
+
+@enduml
+@startuml
+
+!include base.pu
+
+hide empty members
+
+interface Interface {
+}
+
+class Test extends TestAbstract implements Interface {
+  +public : str
+  -private : str
+  #protected : str
+  method() : int
+  {static} static() : int
+}
+
+class A {
+}
+
+enum Months {
+  JAN
+  FEB
+  MAR
+  ...
+}
+
+package Example {
+  class Part {
+  }
+
+  class Item<Generic> {
+  }
+
+  note "Explicit note connection" as explicit
+
+  explicit .left. Part
+  explicit .right. Item
+
+  show Item methods
+  show Part members
+}
+
+abstract class TestAbstract {
+  {abstract} method() : int
+}
+
+show TestAbstract fields
+
+TestAbstract <|-- Test
+Interface <|.. Test
+Test "1" o-- "*" Item : Aggregation
+Test .left.> A
+Test *-- Part : Composition
+
+note on link
+  test
+end note
+
+note right of Test::private
+  Example note
+end note
+
+note "Standalone Note" as standalone
+
+@enduml

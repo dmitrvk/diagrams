@@ -4,6 +4,7 @@ This is a collection of templates for drawing diagrams with PlantUML.
 
 The following diagrams are included:
 * [Activity Diagram](https://github.com/dmitrvk/diagrams/blob/main/activity.pu)
+* [Class Diagram](https://github.com/dmitrvk/diagrams/blob/main/class.pu)
 * JSON visualization
 * [Sequence Diagram](https://github.com/dmitrvk/diagrams/blob/main/sequence.pu)
 * Usecase diagram
@@ -23,6 +24,10 @@ as it has no effect while `@enduml` is placed above it.
 ### Activity Diagram
 
 [![Activity Diagram](https://dmitrvk.ml/public/diagrams/activity.png)](https://github.com/dmitrvk/diagrams/blob/main/activity.pu)
+
+### Class Diagram
+
+[![Class Diagram](https://dmitrvk.ml/public/diagrams/class.png)](https://github.com/dmitrvk/diagrams/blob/main/class.pu)
 
 ### Sequence Diagram
 
