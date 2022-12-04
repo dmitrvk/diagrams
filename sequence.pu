@@ -12,6 +12,13 @@ participant "..." as ...
 ... <-- ... : ...
 
 @enduml
+@startuml
+
+!include base.pu
+
+autonumber
+
+title Sequence Diagram
 
 actor "User" as user
 participant "App" as app
