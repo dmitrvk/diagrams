@@ -28,5 +28,6 @@ skinparam participantBackgroundColor white
 
   wbsDiagram {
     BackgroundColor White
+    LineThickness 1
   }
 </style>

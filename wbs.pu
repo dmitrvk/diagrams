@@ -5,6 +5,11 @@
 * ...
 
 @endwbs
+@startwbs
+
+!include base.pu
+
+title Work Breakdown Structure
 
 * A1
 ** B1
