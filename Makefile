@@ -1,4 +1,4 @@
-SOURCES = $(shell find *.pu | sed 's|\.pu$$||')
+SOURCES = $(shell find -name '*.puml' | sed 's|\.puml$$||')
 
 all: $(SOURCES)
 
@@ -10,7 +10,7 @@ help:
 %:
 	@echo '>>> Building $@'
 	@mkdir -p build
-	@- plantuml $@.pu
+	@- plantuml $@.puml
 	@- mv $@.png build/
 
 .PHONY: all

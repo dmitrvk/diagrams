@@ -1,13 +1,13 @@
 @startwbs
 
-!include base.pu
+!include base.puml
 
 * ...
 
 @endwbs
 @startwbs
 
-!include base.pu
+!include base.puml
 
 title Work Breakdown Structure
 

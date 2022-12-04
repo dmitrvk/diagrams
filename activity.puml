@@ -1,6 +1,6 @@
 @startuml
 
-!include base.pu
+!include base.puml
 
 skinparam ArrowHeadColor none
 
@@ -15,7 +15,7 @@ stop
 @enduml
 @startuml
 
-!include base.pu
+!include base.puml
 
 skinparam ArrowHeadColor none
 

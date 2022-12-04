@@ -1,6 +1,6 @@
 @startuml
 
-!include base.pu
+!include base.puml
 
 autonumber
 
@@ -14,7 +14,7 @@ participant "..." as ...
 @enduml
 @startuml
 
-!include base.pu
+!include base.puml
 
 autonumber
 

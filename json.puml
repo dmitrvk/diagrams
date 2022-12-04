@@ -1,6 +1,6 @@
 @startjson
 
-!include base.pu
+!include base.puml
 
 {
   "...": "..."
@@ -9,7 +9,7 @@
 @endjson
 @startjson
 
-!include base.pu
+!include base.puml
 
 #highlight "results"
 

@@ -1,14 +1,14 @@
 # PlantUML Templates
 
 The following diagrams are included:
-* [Activity Diagram](https://github.com/dmitrvk/diagrams/blob/main/activity.pu)
-* [Class Diagram](https://github.com/dmitrvk/diagrams/blob/main/class.pu)
+* [Activity Diagram](https://github.com/dmitrvk/diagrams/blob/main/activity.puml)
+* [Class Diagram](https://github.com/dmitrvk/diagrams/blob/main/class.puml)
 * JSON visualization
-* [Sequence Diagram](https://github.com/dmitrvk/diagrams/blob/main/sequence.pu)
+* [Sequence Diagram](https://github.com/dmitrvk/diagrams/blob/main/sequence.puml)
 * Usecase diagram
 * Work Breakdown Structure
 
-The templates share the same visual style defined in `base.pu`.
+The templates share the same visual style defined in `base.puml`.
 
 Each template includes an example section
 that is used to generate the images below.
@@ -21,15 +21,15 @@ as it has no effect while `@enduml` is placed above it.
 
 ### Activity Diagram
 
-[![Activity Diagram](https://dmitrvk.ml/public/diagrams/activity.png)](https://github.com/dmitrvk/diagrams/blob/main/activity.pu)
+[![Activity Diagram](https://dmitrvk.ml/public/diagrams/activity.png)](https://github.com/dmitrvk/diagrams/blob/main/activity.puml)
 
 ### Class Diagram
 
-[![Class Diagram](https://dmitrvk.ml/public/diagrams/class.png)](https://github.com/dmitrvk/diagrams/blob/main/class.pu)
+[![Class Diagram](https://dmitrvk.ml/public/diagrams/class.png)](https://github.com/dmitrvk/diagrams/blob/main/class.puml)
 
 ### Sequence Diagram
 
-[![Sequence Diagram](https://dmitrvk.ml/public/diagrams/sequence.png)](https://github.com/dmitrvk/diagrams/blob/main/sequence.pu)
+[![Sequence Diagram](https://dmitrvk.ml/public/diagrams/sequence.png)](https://github.com/dmitrvk/diagrams/blob/main/sequence.puml)
 
 ## Example Workflow
 
@@ -43,7 +43,7 @@ a corresponding image file sould be re-generated.
 On Linux you can use `make` together with the `entr` utility:
 
 ```
-find -name '*.pu' | entr make
+find -name '*.puml' | entr make
 ```
 
 3. Open a generated png image

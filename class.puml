@@ -1,6 +1,6 @@
 @startuml
 
-!include base.pu
+!include base.puml
 
 hide empty members
 
@@ -10,7 +10,7 @@ class Class {
 @enduml
 @startuml
 
-!include base.pu
+!include base.puml
 
 hide empty members
 

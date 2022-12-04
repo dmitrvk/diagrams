@@ -1,6 +1,6 @@
 @startuml
 
-!include base.pu
+!include base.puml
 
 left to right direction
 
@@ -14,7 +14,7 @@ usecase "..." as case
 @enduml
 @startuml
 
-!include base.pu
+!include base.puml
 
 left to right direction
 
