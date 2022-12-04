@@ -3,20 +3,27 @@
 This is a collection of templates for drawing diagrams with PlantUML.
 
 The following diagrams are included:
-* Activity diagram
+* [Activity Diagram](https://github.com/dmitrvk/diagrams/blob/main/activity.pu)
 * JSON visualization
-* Sequence diagram
+* [Sequence Diagram](https://github.com/dmitrvk/diagrams/blob/main/sequence.pu)
 * Usecase diagram
 * Work Breakdown Structure
 
 The templates share the same visual style defined in `base.pu`.
 
 Each template includes an example section
-that is used to generate the images above.
+that is used to generate the images below.
 This examples can be useful
 to quickly overview the most common features of each diagram.
 You don't have to remove this section
 as it has no effect while `@enduml` is placed above it.
+
+## Examples
+
+|Diagram|Example|
+|---|---|
+|[Activity Diagram](https://github.com/dmitrvk/diagrams/blob/main/activity.pu)|[![activity Diagram](https://dmitrvk.ml/public/diagrams/activity.png)](https://github.com/dmitrvk/diagrams/blob/main/activity.pu)|
+|[Sequence Diagram](https://github.com/dmitrvk/diagrams/blob/main/sequence.pu)|[![Sequence Diagram](https://dmitrvk.ml/public/diagrams/sequence.png)](https://github.com/dmitrvk/diagrams/blob/main/sequence.pu)|
 
 ## Example Workflow
 
