@@ -1,0 +1,40 @@
+@startuml
+
+!include base.pu
+
+left to right direction
+
+title ...
+
+actor :...: as ...
+usecase "..." as case
+
+... --> case
+
+@enduml
+@startuml
+
+!include base.pu
+
+left to right direction
+
+title Use Case Diagram
+
+actor :User: as user
+actor :Another User: as another
+
+package "Package" {
+  usecase "Use Case" as case
+  usecase "Extended" as extended
+}
+
+note right of case
+  A note
+end note
+
+extended -|> case
+
+user --> case
+extended <-- another
+
+@enduml

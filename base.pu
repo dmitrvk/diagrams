@@ -11,16 +11,22 @@ skinparam databaseBackgroundColor white
 skinparam fileBackgroundColor white
 skinparam noteBackgroundColor white
 skinparam participantBackgroundColor white
+skinparam usecaseBackgroundColor white
+
 
 <style>
+  arrow {
+    LineThickness 1
+  }
+
+  package {
+    LineThickness 1
+  }
+
   jsonDiagram {
     BackGroundColor White
     LineThickness 1
     RoundCorner 0
-
-    arrow {
-      LineThickness 1
-    }
 
     highlight {
       BackGroundColor LightGray
