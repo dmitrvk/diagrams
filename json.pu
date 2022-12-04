@@ -7,21 +7,12 @@
 }
 
 @endjson
+@startjson
 
-!include example.json
+!include base.pu
 
 #highlight "results"
 
-{
-  "count": 1,
-  "next": null,
-  "previous": null,
-  "results": [
-    {
-      "name": "name",
-      "value": "value"
-    }
-  ]
-}
+!include example.json
 
 @endjson
