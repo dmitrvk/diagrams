@@ -1,6 +1,6 @@
 # PlantUML Templates
 
-This is a collection of templates for drawing diagrams with PlantUML.
+This is a collection of templates for PlantUML.
 
 The following diagrams are included:
 * [Activity Diagram](https://github.com/dmitrvk/diagrams/blob/main/activity.pu)
