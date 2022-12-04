@@ -9,6 +9,7 @@ skinparam classAttributeIconSize 0
 skinparam classBackgroundColor white
 skinparam databaseBackgroundColor white
 skinparam fileBackgroundColor white
+skinparam noteBackgroundColor white
 skinparam participantBackgroundColor white
 
 <style>
